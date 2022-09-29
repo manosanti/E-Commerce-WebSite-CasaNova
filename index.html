@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Font Awesome + CSS + JavaScript Link -->
+    <script src="https://kit.fontawesome.com/463629f7c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="author" content="Lucas Santiago">
+    <meta name="keywords" content="E-Commerce, Distribuidora CasaNova">
+    <meta name="description" content="A Distribuidora CasaNova está há anos trabalhando e serviços os melhores produtos.">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CasaNova - Venha comprar!</title>
+</head>
+<body>
+    <div class="search-box">
+        <input type="text" placeholder="Type to search...">
+        <div class="search-btn">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+    <script>
+        const searchBtn = document.querySelector(".search-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        const searchBox = document.querySelector(".search-box");
+        const searchInput = document.querySelector(".input");
+        searchBtn.onclick = () =>{
+            searchBox.classList.add("active");
+            searchInput.classList.add("active");
+        }
+    </script>
+</body>
+</html>
