@@ -1,77 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    background-color: #24252A;
 }
 
-html,body{
-    display: grid;
-    height: 100%;
-    place-items: center;
-    background: #664aff;
+li, a, button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
 }
 
-.search-box{
-    position: relative;
-    height: 60px;
-    width: 60px;
-    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
 }
 
-.search-box.active{
-    width: 350px;
+.logo{
+    cursor: pointer;
 }
 
-.search-box input{
-    height: 100%;
-    width: 100%;
+.nav__links{
+    list-style: none;
+}
+
+/* display: inline-block; deixar um item do lado do outro */
+.nav__links li{
+    display: inline-block;
+    padding: 0px  20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #0088a9;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
     border: none;
-    outline: none;
-    background: #fff;
-    font-size: 18px;
-    border-radius: 50px;
-    padding: 0 60px 0 20px;
-    opacity: 0;
-    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.search-box input.active{
-    opacity: 1;
-}
-.search-box .search-btn{
-    position: absolute;
-    top: 50%;
-    right: 0px;
-    transform: translateY(-50%);
-    height: 60px;
-    width: 60px;
-    color: #664aff;
-    background: #fff;
-    line-height: 60px;
-    text-align: center;
-    border-radius: 50px;
-    font-size: 22px;
+    border-radius: 1.2rem;
     cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 
-.search-box .search-btn.active{
-    height: 50px;
-    width: 50px;
-    color: #fff;
-    background: #664aff;
-    line-height: 50px;
-    right: 5px;
-}
-
-.search-box .cancel-btn{
-    position: absolute;
-    top: 50%;
-    right: -40px;
-    transform: translateY(-50%);
-    color: #fff;
-    font-size: 25px;
-    cursor: pointer;
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
 }

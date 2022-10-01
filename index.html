@@ -14,24 +14,16 @@
     <title>CasaNova - Venha comprar!</title>
 </head>
 <body>
-    <div class="search-box">
-        <input type="text" placeholder="Type to search...">
-        <div class="search-btn">
-            <i class="fas fa-search"></i>
-        </div>
-        <div class="cancel-btn">
-            <i class="fas fa-times"></i>
-        </div>
-    </div>
-    <script>
-        const searchBtn = document.querySelector(".search-btn");
-        const cancelBtn = document.querySelector(".cancel-btn");
-        const searchBox = document.querySelector(".search-box");
-        const searchInput = document.querySelector(".input");
-        searchBtn.onclick = () =>{
-            searchBox.classList.add("active");
-            searchInput.classList.add("active");
-        }
-    </script>
+    <header>
+        <img class="logo" src="img/logo.svg" alt="logo">
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contact</button></a>
+    </header>
 </body>
 </html>
