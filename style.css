@@ -66,10 +66,6 @@ header{
     font-size: 60px;
 }
 
-.cta{
-    margin-left: 30%;
-}
-
 .btn-contact{
     padding: 10px 30px;
     background-color: #2192FF;
@@ -81,7 +77,6 @@ header{
     float: left;
     margin-left: 15%;
     width: 30vw;
-    box-shadow: #17181a 0 6px 6px 0;
 }
 
 .btn-contact:hover{
