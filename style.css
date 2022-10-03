@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
 
 *{
     box-sizing: border-box;
@@ -15,7 +17,7 @@
     text-decoration: none;
 }
 
-span{
+.span-title{
     color: #0084ff;
     cursor: pointer;
 }
@@ -91,6 +93,10 @@ header{
     width: 33vw;
 }
 
+a{
+    color: #fff;
+}
+
 .logo{
     cursor: pointer;
 }
@@ -141,6 +147,68 @@ button:hover{
 ul{
     list-style: none;
 }
+
+.bottom-text{
+    padding-bottom: 10px;
+}
+
+.card-text{
+    padding-top: 10px;
+}
+
+.btn-primary{
+    float: inline-end;
+    padding: 10px;
+    border-radius: 4px;
+    background: #0084ff;
+    text-decoration: none;
+}
+
+.top-card-title{
+    font-size: 30px;
+    color: #0084ffde;
+    font-weight: bolder;
+}
+
+.actions{
+    background: #0084ff;
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
+.content{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 12%;
+    height: 50vh;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.card{
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 2px 15px #17181a1f;
+}
+
+.card-background{
+    background: url(img/Vassoura-Bella.png) center/cover;
+    height: 130px;
+    width: 100%;
+}
+
+.top-card{
+    padding: 20px;
+}
+
+.bottom-card{
+    padding: 20px;
+}
+
+/* Footer */
 
 .footer{
     font-family: 'Montserrat', sans-serif;
