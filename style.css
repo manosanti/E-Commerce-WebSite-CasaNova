@@ -93,8 +93,10 @@ header{
     width: 33vw;
 }
 
-a{
-    color: #fff;
+.card-body{
+    height: 15vh;
+    padding-bottom: 20px;
+    margin: 17px;
 }
 
 .logo{
@@ -152,21 +154,19 @@ ul{
     padding-bottom: 10px;
 }
 
+.card-img-top{
+    height: 100%;
+    width: 100%;
+}
+
 .card-text{
-    padding-top: 10px;
+    text-align: start;
 }
 
-.btn-primary{
-    float: inline-end;
-    padding: 10px;
-    border-radius: 4px;
-    background: #0084ff;
-    text-decoration: none;
-}
-
-.top-card-title{
+.card-title{
+    text-align: start;
+    color: #0084ff;
     font-size: 30px;
-    color: #0084ffde;
     font-weight: bolder;
 }
 
