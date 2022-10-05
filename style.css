@@ -8,6 +8,10 @@
     padding: 0;
 }
 
+.logo-title:hover{
+    color: #edf0f1;
+}
+
 .logo-title{
     font-family: 'Montserrat', sans-serif;
     color: #edf0f1;
@@ -19,7 +23,6 @@
 
 .span-title{
     color: #0084ff;
-    cursor: pointer;
 }
 
 .nav-link{
@@ -36,11 +39,11 @@ li, button{
 }
 
 body{
-    background-color: #24252A;
-    height: 100%;
+    background-image: linear-gradient(to right top, #101011, #181818, #1f1f1f, #262626, #2d2d2d);    height: 100%;
 }
 
 header{
+    background-color: #24252A;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -66,6 +69,7 @@ header{
     padding-top: 10%;
     width: 60%;
     font-size: 60px;
+    font-weight: bolder;
 }
 
 .btn-contact{
@@ -91,12 +95,6 @@ header{
     text-align: center;
     margin-left: 13.2%;
     width: 33vw;
-}
-
-.card-body{
-    height: 15vh;
-    padding-bottom: 20px;
-    margin: 17px;
 }
 
 .logo{
@@ -150,21 +148,24 @@ ul{
     list-style: none;
 }
 
+.products-title{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin: 70px;
+}
+
+.products{
+    justify-content: space-between;
+    margin: 45px;
+    display: flex;
+}
+
 .bottom-text{
     padding-bottom: 10px;
 }
 
-.card-img-top{
-    height: 100%;
-    width: 100%;
-}
-
-.card-text{
-    text-align: start;
-}
-
 .card-title{
-    text-align: start;
     color: #0084ff;
     font-size: 30px;
     font-weight: bolder;
@@ -174,18 +175,6 @@ ul{
     background: #0084ff;
     border-radius: 15px;
     padding: 10px 30px;
-}
-
-.content{
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 12%;
-    height: 50vh;
-    margin-left: 2%;
-    cursor: pointer;
 }
 
 .card{
